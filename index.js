@@ -22,7 +22,7 @@ app.post("/", (req, res) => {
 
 app.get("/", (req,res) => {
 
-    res.render("index", {tarefasList: tarefas}) // segunda paramentro: parametro pra jogar um dado de uma api pro outro arquivo
+    res.render("index", {tarefasList: tarefas}) // segundo parametro: parametro pra jogar um dado de uma api pro outro arquivo
 })
 
 app.get("/deletar/:id", (req, res) => {
